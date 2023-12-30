@@ -27,6 +27,12 @@ header {
     transition: all 0.5s ease;
 }
 
+header.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: lightgray;
+}
 .logo {
     display: flex;
     align-items: center;
@@ -45,6 +51,7 @@ header {
     transition: all 0.50s ease;
     margin: 0 10px;
     font-style: initial;
+
 }
 
 .navbar a:hover,
@@ -66,7 +73,7 @@ header {
     vertical-align: middle;
     font-size: 40px;
     color: aliceblue;
-    width: 50%;
+    width: 20%;
 }
 
 #menu {
@@ -361,7 +368,6 @@ header.sticky {
 
     .nav-icon {
         display: block;
-        width: 30%;
     }
 
     .navbar.active {
