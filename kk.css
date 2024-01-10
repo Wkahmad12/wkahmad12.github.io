@@ -64,7 +64,7 @@ header.sticky {
     align-items: center;
     padding: 1px 1px;
     border-radius: 0;
- 
+   
     color: aliceblue;
 }
 
@@ -327,8 +327,8 @@ header.sticky {
 }
 
 .copyright {
-    background-color: #FF3366;
-    color: white;
+    background-color:#a9a9a962;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 20 0;
 }
